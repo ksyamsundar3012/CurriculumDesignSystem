@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenAI Curriculum Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GenAI Curriculum Generator</h1>
+    <p>Create AI-powered education curricula in seconds</p>
+  </header>
+
+  <main>
+    <section id="input-section">
+      <div class="form-container">
+        <label>Skill:</label><input id="skill" placeholder="Machine Learning" />
+        <label>Level:</label><input id="level" placeholder="Masters" />
+        <label>Semesters:</label><input id="semesters" type="number" value="4" />
+        <label>Weekly Hours:</label><input id="weekly_hours" placeholder="20-25" />
+        <label>Industry Focus:</label><input id="industry_focus" placeholder="AI" />
+
+        <button id="generate">Generate Curriculum</button>
+      </div>
+    </section>
+
+    <section id="output-section" class="hidden">
+      <h2>Generated Curriculum</h2>
+      <div id="curriculum-display"></div>
+      <button id="download-pdf">Download PDF</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
