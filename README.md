@@ -1,2 +1,2 @@
-# CurriculumDesignSystem
-CurriculumDesigning
+# Curriculum
+Curriculum
